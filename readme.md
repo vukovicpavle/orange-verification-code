@@ -22,7 +22,7 @@ const alphanumericCode = generateAlphanumericCode(6, "upper"); // ABCDEF
 
 ## API
 
-### generateNumericCode(length?: number)
+### `generateNumericCode(length?: number)`
 
 Generates a numeric verification code.
 
@@ -38,7 +38,7 @@ Generates a numeric verification code.
 | ------ | ------------------- |
 | string | The generated code. |
 
-### generateAlphanumericCode(length?: number, letterCase?: string)
+### `generateAlphanumericCode(length?: number, letterCase?: string)`
 
 Generates an alphanumeric verification code.
 
