@@ -16,8 +16,8 @@ import {
   generateNumericCode,
 } from "@vukovicpavle/verification-code";
 
-const numericCode = generateNumericCode(6);
-const alphanumericCode = generateAlphanumericCode(6, "upper");
+const numericCode = generateNumericCode(6); // 123456
+const alphanumericCode = generateAlphanumericCode(6, "upper"); // ABCDEF
 ```
 
 ## API
