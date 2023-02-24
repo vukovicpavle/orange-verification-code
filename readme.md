@@ -28,11 +28,15 @@ Generates a numeric verification code.
 
 #### Parameters
 
-- `length` - The length of the code. Default is `4`.
+| Name   | Type   | Description             | Required | Default |
+| ------ | ------ | ----------------------- | -------- | ------- |
+| length | number | The length of the code. | No       | 4       |
 
 #### Returns
 
-- `string` - The generated code.
+| Type   | Description         |
+| ------ | ------------------- |
+| string | The generated code. |
 
 ### generateAlphanumericCode
 
@@ -40,9 +44,13 @@ Generates an alphanumeric verification code.
 
 #### Parameters
 
-- `length` - The length of the code. Default is `4`.
-- `letterCase` - The case of the code. Can be `mixed`, `upper` or `lower`. Default is `mixed`.
+| Name       | Type   | Description                                        | Required | Default |
+| ---------- | ------ | -------------------------------------------------- | -------- | ------- |
+| length     | number | The length of the code.                            | No       | 4       |
+| letterCase | string | The case of the code. "mixed", "upper" or "lower". | No       | "mixed" |
 
 #### Returns
 
-- `string` - The generated code.
+| Type   | Description         |
+| ------ | ------------------- |
+| string | The generated code. |
