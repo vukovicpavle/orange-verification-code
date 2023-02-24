@@ -1,7 +1,7 @@
 {
-  "name": "@vukovicpavle/verification-code",
-  "version": "1.0.1",
-  "description": "Verification code generator",
+  "name": "@vukovicpavle/orange-verification-code",
+  "version": "1.0.2",
+  "description": "🍊 Verification code generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
