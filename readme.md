@@ -5,7 +5,7 @@ This is a simple verification code generator. Supports numeric and alphanumeric 
 ## Installation
 
 ```bash
-npm install @vukovicpavle/verification-code
+npm install @vukovicpavle/orange-verification-code
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install @vukovicpavle/verification-code
 import {
   generateAlphanumericCode,
   generateNumericCode,
-} from "@vukovicpavle/verification-code";
+} from "@vukovicpavle/orange-verification-code";
 
 const numericCode = generateNumericCode(6); // 123456
 const alphanumericCode = generateAlphanumericCode(6, "upper"); // ABCDEF
